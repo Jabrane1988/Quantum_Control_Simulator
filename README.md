@@ -84,10 +84,4 @@ Run all tests:
 pytest -q
 
 
-The test suite includes:
-
-pulse shape validation (Gaussian + DRAG)
-
-unitary-limit physics sanity checks (trace preservation, Hermiticity)
-
-probability validity checks
+The test suite includes: pulse shape validation (Gaussian + DRAG), unitary-limit physics sanity checks (trace preservation, Hermiticity) and probability validity checks
