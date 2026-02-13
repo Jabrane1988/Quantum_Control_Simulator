@@ -42,9 +42,7 @@ Where:
 
 ### Decoherence (Lindblad master equation)
 
-\[
 \dot{\rho} = -i[H(t), \rho] + \sum_k \left(L_k \rho L_k^\dagger - \frac{1}{2}\{L_k^\dagger L_k, \rho\}\right)
-\]
 
 Noise channels:
 - Relaxation: \(T_1\)
@@ -56,7 +54,6 @@ Noise channels:
 
 Create and activate a virtual environment:
 
-```bash
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -U pip
