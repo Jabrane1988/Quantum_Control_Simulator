@@ -32,9 +32,7 @@ This project simulates a driven qubit under shaped microwave pulses and realisti
 
 ### Driven qubit Hamiltonian (rotating frame)
 
-\[
-H(t) = \frac{1}{2}\left(\Delta \sigma_z + \Omega_x(t)\sigma_x + \Omega_y(t)\sigma_y\right)
-\]
+dρ/dt = -i [H(t), ρ] + Σ_k ( L_k ρ L_k† - 1/2 {L_k† L_k, ρ} )
 
 Where:
 - Δ is detuning
